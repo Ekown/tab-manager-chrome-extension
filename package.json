@@ -1,0 +1,20 @@
+{
+  "name": "tab-manager-chrome-extension",
+  "version": "1.0.0",
+  "description": "Tab Hoarder — Chrome extension for managing tabs across windows",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["chrome-extension", "tab-manager"],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.7.1",
+    "@types/chrome": "^0.2.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.4"
+  }
+}

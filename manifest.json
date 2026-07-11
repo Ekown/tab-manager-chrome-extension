@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Hoarder",
+  "version": "1.0.0",
+  "description": "Manage your open tabs across windows — search, switch, close, and suspend.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "Tab Hoarder"
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
