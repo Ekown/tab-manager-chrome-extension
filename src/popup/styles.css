@@ -15,7 +15,7 @@ body {
   overflow-y: auto;
 }
 
-#app {
+.app {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -36,7 +36,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-#search {
+.search-input {
   width: 100%;
   padding: 8px 10px;
   border: 1px solid #ccc;
@@ -45,12 +45,12 @@ h1 {
   outline: none;
 }
 
-#search:focus {
+.search-input:focus {
   border-color: #4a90d9;
   box-shadow: 0 0 0 2px rgba(74, 144, 217, 0.2);
 }
 
-#tab-list {
+.tab-list {
   list-style: none;
   padding: 4px 0;
 }
