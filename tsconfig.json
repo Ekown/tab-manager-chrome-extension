@@ -14,5 +14,6 @@
     "jsx": "preserve",
     "types": ["chrome"]
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["src/__mocks__", "src/**/*.test.ts", "src/**/*.test.tsx"]
 }
